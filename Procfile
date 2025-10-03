@@ -1,1 +1,1 @@
-web: python EstoqueReprografiaWeb.py
+gunicorn EstoqueReprografiaWeb:app --bind 0.0.0.0:$PORT
