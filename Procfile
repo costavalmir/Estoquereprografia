@@ -1,1 +1,1 @@
-web: gunicorn EstoqueReprografiaWeb:app
+web: python EstoqueReprografiaWeb.py
