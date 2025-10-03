@@ -1,1 +1,1 @@
-gunicorn EstoqueReprografiaWeb:app --bind 0.0.0.0:$PORT
+web: gunicorn EstoqueReprografiaWeb:app --bind 0.0.0.0:$PORT
