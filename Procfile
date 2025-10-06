@@ -1,1 +1,1 @@
-web: gunicorn EstoqueReprografiaWeb:app
+gunicorn EstoqueReprografiaWeb:app
